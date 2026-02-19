@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Barbería Elite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">BARBER<span>ELITE</span></div>
+        <button class="menu-toggle" id="mobile-menu">
+        <i class="fas fa-bars"></i>
+    </button>
+    <nav class="nav-container">
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+        <a href="https://wa.me/56926073767" class="btn-reserva">Agendar Cita</a>
+    </header>
+
+    <section class="contact-page">
+        <div class="contact-container">
+            
+            <div class="contact-info-detailed">
+                <h1>Ponte en contacto</h1>
+                <p>¿Tienes dudas o quieres un cambio de look radical? Visítanos o envíanos un mensaje.</p>
+                
+                <div class="info-cards">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Dirección</h3>
+                            <p>Calle Ficticia 123, Curicó, Chile</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Teléfono</h3>
+                            <p>+56 9 2607 3767</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email Corporativo</h3>
+                            <p>contacto@barberiaelite.cl</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Horario de Atención</h3>
+                            <p>Lunes a Sábado: 10:00 - 20:00</p>
+                            <p>Domingo: Cerrado</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <div class="input-group">
+                        <label>Nombre Completo</label>
+                        <input type="text" placeholder="Ej: Juan Pérez" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Correo Electrónico</label>
+                        <input type="email" id="email" placeholder="email@ejemplo.com" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Servicio de Interés</label>
+                        <select>
+                            <option value="corte">Corte Clásico</option>
+                            <option value="barba">Perfilado de Barba</option>
+                            <option value="combo">Combo Elite (Pelo + Barba)</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label>Mensaje</label>
+                        <textarea rows="5" placeholder="Cuéntanos qué necesitas..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar Mensaje</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="google-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.123456789!2d-71.2412345!3d-34.9812345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM3TCsDU4JzUyLjQiUyA3McKwMTQnMjguNCJX!5e0!3m2!1ses!2scl!4v1234567890" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <footer>
+        <p>© 2026 Barbería Elite. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
