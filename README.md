@@ -28,7 +28,7 @@ Solo cambia el número dentro del texto.
 Abre "galeria.html".
 Busca las etiquetas <img>. 
 Cambia el texto dentro de src="..." por el nombre de tu foto.
-Ejemplo: <img src="Imagenes/images1.jpg"> 
+Ejemplo: <img src= Imagenes/images1.jpg"> 
 (Asegúrate de que la foto esté en la misma carpeta).
 
 --------------------------------------------------
@@ -48,3 +48,4 @@ En "contacto.html"
 Diseñado por: Vannya Salinas
 
 ==================================================
+
